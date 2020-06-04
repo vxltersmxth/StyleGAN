@@ -2,10 +2,6 @@
 
 This is pytorch StyleGAN implementation with fixed latent space interpolation generator, early stopping and optimized for RTX-2070 super GPU
 
-<p align="center">
-     <img src=diagrams/grid.png width=100% /> <br>
-     <a align="center" href="http://www.seeprettyface.com/mydataset.html">[ChineseGirl Dataset]</a>
-</p>
 
 This repository contains the unofficial PyTorch implementation of the following paper:
 

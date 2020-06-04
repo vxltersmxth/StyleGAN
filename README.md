@@ -1,6 +1,6 @@
 # StyleGAN.pytorch
 
-## \[:star: New :star:\] Please head over to [StyleGAN2.pytorch](https://github.com/huangzh13/StyleGAN2.pytorch) for my stylegan2 pytorch implementation.
+This is pytorch StyleGAN implementation with fixed latent space interpolation generator, early stopping and optimized for RTX-2070 super GPU
 
 <p align="center">
      <img src=diagrams/grid.png width=100% /> <br>

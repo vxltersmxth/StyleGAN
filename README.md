@@ -66,10 +66,6 @@ python generate_mixing_figure.py --config config/sample.yaml --generator_file []
 python generate_truncation_figure.py --config configs/sample_cari2_128_truncation.yaml --generator_file cari2_128_truncation_gen.pth
 ```
 
-### Convert from official format
-```shell script
-python convert.py --config configs/sample_ffhq_1024.yaml --input_file PATH/karras2019stylegan-ffhq-1024x1024.pkl --output_file ffhq_1024_gen.pth
-```
 
 ## Reference
 

@@ -48,6 +48,11 @@ Resume training from a checkpoint (start form 128x128):
 ```shell script
 python train.py --config config/sample.yaml --start_depth 5 --generator_file [] [--gen_shadow_file] --discriminator_file [] --gen_optim_file [] --dis_optim_file []
 ```
+### Style Mixing
+
+```shell script
+python generate_samples.py --config config/sample.yaml --generator_file [] 
+```
 
 ### Style Mixing
 

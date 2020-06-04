@@ -1,6 +1,6 @@
 # StyleGAN.pytorch
 
-This is pytorch StyleGAN implementation with fixed latent space interpolation generator, early stopping and optimized for RTX-2070 super GPU
+This is pytorch StyleGAN implementation with smooth latent space interpolation generator, early stopping and optimized for RTX-2070 super GPU training
 
 
 This repository contains the unofficial PyTorch implementation of the following paper:

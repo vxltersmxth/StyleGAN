@@ -1,0 +1,9 @@
+output_dir: '/media/vxlter/xxx/models/StyleGAN.pytorch/forest_700_5'
+structure: 'linear'
+device_id: ('0')
+dataset:
+  img_dir: '/media/vxlter/xxx/datasets/gan/'
+  folder: False
+  resolution: 512
+sched:
+  epochs: [2,4,4,4,4,4,64,256,100]

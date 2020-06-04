@@ -48,17 +48,12 @@ Resume training from a checkpoint (start form 128x128):
 ```shell script
 python train.py --config config/sample.yaml --start_depth 5 --generator_file [] [--gen_shadow_file] --discriminator_file [] --gen_optim_file [] --dis_optim_file []
 ```
+
 ### Style Mixing
 
 ```shell script
 python generate_mixing_figure.py --config config/sample.yaml --generator_file [] 
 ```
-
-<p align="center">
-     <img src=diagrams/figure03-style-mixing-mix.png width=90% /> <br>
-</p>
-
-> Thanks to dataset provider:Copyright(c) 2018, seeprettyface.com, BUPT_GWY contributes the dataset.
 
 ### Truncation trick
 
@@ -66,32 +61,10 @@ python generate_mixing_figure.py --config config/sample.yaml --generator_file []
 python generate_truncation_figure.py --config configs/sample_cari2_128_truncation.yaml --generator_file cari2_128_truncation_gen.pth
 ```
 
-<p align="center">
-     <img src=diagrams/figure08-truncation-trick.png width=90% /> <br>
-</p>
-
 ### Convert from official format
 ```shell script
 python convert.py --config configs/sample_ffhq_1024.yaml --input_file PATH/karras2019stylegan-ffhq-1024x1024.pkl --output_file ffhq_1024_gen.pth
 ```
-
-## Generated samples
-
-<p align="center">
-     <img src=diagrams/ffhq_128.png width=90% /> <br>
-     <a align="center" href="https://github.com/NVlabs/ffhq-dataset">[FFHQ Dataset](128x128)</a>
-</p>
-
-Using weights tranferred from official tensorflow repo.
-<p align="center">
-     <img src=diagrams/ffhq_1024.png width=90% /> <br>
-     <a align="center" href="https://github.com/NVlabs/ffhq-dataset">[FFHQ Dataset](1024x1024)</a><br>
-</p>
-
-<p align="center">
-     <img src=diagrams/cari2_128.png width=90% /> <br>
-     <a align="center" href="https://cs.nju.edu.cn/rl/WebCaricature.htm">[WebCaricatureDataset](128x128)</a><br>
-</p>
 
 ## Reference
 
